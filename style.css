@@ -13,10 +13,58 @@ ul {
     list-style: none;
 }
 
+li {
+    margin-left: 12px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    padding: 16px;
+}
+.large-image {
+    height: 400px;
+    width: 400px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.image-with-text {
+    text-align: center;
+}
+
+.medium-image {
+    height: 300px;
+    width: 300px;
+    border: 8px solid #3882f6;
+    border-radius: 25px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 28px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.signup {
+    display: flex;
 }
 
 .header,
@@ -28,14 +76,8 @@ ul {
 
 .information,
 .signup {
-    background-color: #3882f6;
+    background-color: white;
 }
 
-.quote {
-    background-color: #e5e7eb;
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
-}
+
 
